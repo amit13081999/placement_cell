@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <title>registeration page</title>
+        <link rel="stylesheet" href="css/mainstyle.css">
+    </head>
+    <body>
+        
+        <h1> School Of Computer Science and IT </h1>   
+        <div id="div2" >  
+        <form action="php/register.php" method="post" >
+            <table>
+                <tr>
+                    <th>ENROLLMENT NO.</th>
+                    <th><input  type="text" placeholder="college enroll no." name="enroll"  required/></th>
+                </tr>   
+                <tr>
+                    <th>PASSWORD</th>
+                    <th><input type="password" placeholder="password" name="password"  required/></th>
+                </tr>
+                <tr>
+                    <th>NAME</th>
+                    <th><input  type="text" placeholder="full name" name="name"  required/></th>
+                </tr>
+                 <tr>
+                    <th>Male<input  type="radio" name="gender" value="male" required /></th>
+                    <th>Female<input  type="radio" name="gender" value="female" required/></th>
+                </tr>
+                <tr>
+                    <th>PHONE NO.</th>
+                    <th><input  type="text" placeholder="10 digit" name="phone"  required/></th>
+                </tr>
+                <tr>
+                    <th>EMAIL-ID</th>
+                    <th><input type="email" placeholder="xyz@scsit.edu" name="email"  required/></th>
+                </tr>
+                <tr>
+                    <th>COURSE</th>
+                    <th>
+                        <select name="course">
+                            <option value="MCA 2 YEAR">MCA 2 YEAR</option>
+                            <option value="MCA 3 YEAR">MCA 3 YEAR</option>
+                            <option value="MSC.">MSC.</option>
+                            <option value="MTECH.">MTECH.</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2"><input type="submit" value="Register" /></th>
+                </tr> 
+                <tr>
+                    <th colspan="2"><input type="reset" /></th>
+                </tr>
+            </table>
+        </form>
+        </div>    
+    </body>
+</html>

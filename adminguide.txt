@@ -1,0 +1,24 @@
+1)select * from company //all companies 
+
+2)select * from user  //all users
+
+3)select * from placement  // relation between companies and user 
+
+4)select * from user where admin='no' //all students 
+
+5)select * from user where enroll in (select enroll from placement) //placed students 
+
+6)select * from user where enroll not in (select enroll from placement) //unplaced students
+
+
+7)SELECT user.enroll,user.name,user.gender,user.phone,user.email,user.course,company.cname,company.role,company.ctc,company.campus,company.date
+FROM user 
+JOIN placement on (user.enroll=placement.enroll)
+JOIN company on (company.cid=placement.cid) // join all 
+
+
+
+8)SELECT user.enroll,user.name,user.gender,user.phone,user.email,user.course,company.cname,company.role,company.ctc,company.campus,company.date
+FROM user 
+JOIN placement on (user.enroll=placement.enroll)
+JOIN company on (company.cid=placement.cid) where company.ctc>4 //all data where company ctc > 4 lack

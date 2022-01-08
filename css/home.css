@@ -1,0 +1,143 @@
+#d1
+{
+    position: relative;
+    height: 150px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family:Copperplate Gothic Light;
+    border-radius: 30px;
+}
+#d2
+{
+    position: relative;
+    top:10px;
+    height: 570px;
+    background-color: blue;
+    font-size: 40px;  
+    border-radius: 30px;
+}
+#d3
+{   
+    position: absolute;
+    top: 430px;
+    left: 35%;   
+}
+#t1
+{
+    height: 100px;
+    width: 500px;
+}
+#t2
+{
+    height: 300px;
+}
+body
+{
+    background-color: gainsboro;
+}
+#s1
+{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+#s2
+{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+#s3
+{
+    position: absolute;
+    top: 90px;
+    left: 83%;
+}
+#s4
+{
+    position: absolute;
+    top: 30px;
+    left: 75%;
+    font-size: 20px;
+    color: darkred;
+    font-weight: bolder;
+}
+#s5
+{
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color: darkred;
+}
+#img
+{
+    position: absolute;
+    left: 43%;
+    height: inherit;
+    width: 200px;
+}
+#l1
+{ 
+    position: absolute;
+    left: 200px; 
+}
+#l2
+{ 
+    position: absolute;
+    left: 50px;  
+}
+#l3
+{
+    font-size: 20px;
+    color: white;
+}
+label
+{
+    font-style: italic;
+    color: darkred;
+    font-weight: bolder;
+}
+a
+{
+    text-decoration: none;
+}
+form
+{
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+    top: 100px;
+    left: 35%;
+    border-radius: 30px;
+}
+table
+{
+    font-style: italic;
+    background-color: gainsboro;
+    height: 200px;
+    width: 500px;  
+    font-size: 20px;
+    border-radius: inherit;
+}
+select
+{
+    width:150px;
+}
+#in1
+{
+    width:350px;
+}
+
+
+
+
+
+
+
+
+
+
